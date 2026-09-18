@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import legacyScoreWordmark from "./assets/legacy-score-wordmark.png";
-import legacyScoreMark from "./assets/legacy-score-mark.png";
+import legacyScoreMark from "./assets/legacy-score-symbol.png";
 
 /* ---------------------------------------------------------------
    LOOKUP TABLES — sourced from Legacy_Score_Matrix.xlsx
@@ -839,7 +839,7 @@ const styles = {
     marginBottom: 30, background: NAVY_CARD,
   },
   reportTitle: { fontFamily: "'Bebas Neue', sans-serif", fontSize: 20, letterSpacing: 2, color: COLUMBIA, marginBottom: 8, display: "flex", alignItems: "center", gap: 8 },
-  reportTitleMark: { width: 22, height: 22, objectFit: "contain" },
+  reportTitleMark: { width: 30, height: 30, objectFit: "contain", verticalAlign: "-6px" },
   reportIntro: { fontSize: 14, color: MUTED, marginTop: 0, marginBottom: 4, lineHeight: 1.5 },
   reportTierCallout: {
     fontSize: 14.5, color: WHITE, margin: "10px 0 0", lineHeight: 1.5,
